@@ -14,9 +14,8 @@
 
 FROM golang:1.10.0
 RUN go get github.com/codegangsta/negroni \
-           github.com/gorilla/mux 
-
-RUN go get github.com/xyproto/simpleredis/v2
+           github.com/gorilla/mux \
+           github.com/xyproto/simpleredis/v2
 
 WORKDIR /app
 ADD ./main.go .
