@@ -92,3 +92,4 @@ func main() {
 
 
 //some comments to check if the rules are working
+//let's change the comment message and check
